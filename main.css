@@ -1,0 +1,22 @@
+.card {
+  position: relative;
+}
+
+.card img {
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card img:last-child {
+  opacity: 0;
+}
+
+.card-hover img:first-child {
+  opacity: 0;
+}
+
+.card-hover img:last-child {
+  opacity: 1;
+}
